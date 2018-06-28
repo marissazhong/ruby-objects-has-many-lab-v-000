@@ -28,22 +28,22 @@ end
 
 # testing below
 
-class Song
-  attr_accessor :name, :artist
-  @@all = []
-  def initialize(name)
-    @name = name
-    @@all << self
-  end
-  def self.all
-    @@all
-  end
-  def artist_name
-    self.artist ? self.artist.name : nil
-  end
-end
-
-adele = Artist.new("Adele")
-hello = Song.new("Hello")
-adele.add_song(hello)
-hello.artist
+# class Song
+#   attr_accessor :name, :artist
+#   @@all = []
+#   def initialize(name)
+#     @name = name
+#     @@all << self
+#   end
+#   def self.all
+#     @@all
+#   end
+#   def artist_name
+#     self.artist ? self.artist.name : nil
+#   end
+# end
+# 
+# adele = Artist.new("Adele")
+# hello = Song.new("Hello")
+# adele.add_song(hello)
+# hello.artist
