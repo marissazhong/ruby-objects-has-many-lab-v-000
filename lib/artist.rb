@@ -42,7 +42,7 @@ end
 #     self.artist ? self.artist.name : nil
 #   end
 # end
-# 
+#
 # adele = Artist.new("Adele")
 # hello = Song.new("Hello")
 # adele.add_song(hello)
